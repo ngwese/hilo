@@ -643,7 +643,7 @@ static void handler_MonomeGridKey(s32 data) {
   } // not preset mode
 }
 
-static void handle_null_press(u8 x, u8 y, u8 z) {}
+//static void handle_null_press(u8 x, u8 y, u8 z) {}
 
 static void handle_trig_press_8x8(u8 x, u8 y, u8 z) {	
   if (z) {
@@ -786,7 +786,7 @@ static void refresh(void) {
   (*refresh_ctrl)();
 }
 
-static void refresh_null(void) {}
+//static void refresh_null(void) {}
 
 static void refresh_trig_clear(void) {
   // TODO: do this with fewer ops
